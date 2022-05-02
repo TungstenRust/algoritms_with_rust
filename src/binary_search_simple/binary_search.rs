@@ -3,7 +3,7 @@ pub fn find_via_binary_search(array: &[i32], key: i32) -> Option<usize> {
        None
     } else {
         let mut left_point = 0;
-        let mut right_point = array.len();
+        let mut right_point = array.len()-1;
         while left_point < right_point {
             let mid_point = (left_point + right_point) / 2;
             if array[mid_point] == key {
