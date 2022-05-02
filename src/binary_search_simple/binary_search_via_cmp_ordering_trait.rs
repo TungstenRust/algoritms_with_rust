@@ -1,3 +1,4 @@
+use std::cmp::ordering;
 pub fn find_via_binary_search <T: Ord>(array: &[T], key: T) -> Option<usize> {
         let mut left_point = 0;
         let mut right_point = array.len();
