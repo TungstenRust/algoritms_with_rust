@@ -1,5 +1,5 @@
 fn main(){
-    let mut list_nums[i32; 7]=[10, 23, 4, 5, 66, 7, -3];
+    let mut list_nums:[i32; 7]=[10, 23, 4, 5, 66, 7, -3];
     println!(":?", list_nums);
 
     let list_len = list_nums.len();
